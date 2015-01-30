@@ -1,0 +1,205 @@
+\documentclass[final]{resume}
+
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+
+\renewcommand{\categoryfont}{\sc}
+
+%
+% set the space used for category titles here:
+% use the same value for oddsidemargin and marginparwidth [the latter 
+% 		will be reset to account for marginparsep]
+% 
+\setlength{\oddsidemargin}{1in}
+\setlength{\marginparwidth}{1in}
+% 
+% calculate other dimensions [textwidth and evensidemargin] 
+% in function of oddsidemargin and marginparwidth: 
+% would be nicer to put in the class file...
+%
+\addtolength{\marginparwidth}{-\marginparsep}
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-2.0in}
+\addtolength{\textwidth}{-2\oddsidemargin}
+\addtolength{\textwidth}{\marginparwidth}
+\addtolength{\textwidth}{\marginparsep}
+\addtolength{\textheight}{2.0in}
+\addtolength{\topmargin}{-0.8in}
+%
+%
+%
+%
+\renewcommand{\labelcitem}{$\diamond$}
+\renewcommand{\labelitemi}{$\cdot$}
+\newcommand{\first}{$1^{\mbox{\scriptsize st}}$\ }
+\newcommand{\second}{$2^{\mbox{\scriptsize nd}}$\ }
+\newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
+
+%--------My editing starts from here---------
+
+% Some definitions which can be changed easily
+
+\def\yearOfStudy{Senior Undergraduate}
+\def\iitb{Indian Institute of Technology Bombay}
+\def\cse{Department Of Computer Science}
+\def\addr{Flat No. 102, Building B,\\
+		  10 Kasturkunj,\\
+		  Bhosale Nagar,\\
+		  Pune 411007.\\
+          Phone: 91-9819858371}
+
+\author{Sangram R. Raje}
+% ------ Address --------------------------------------------------------
+
+\address{}%\yearOfStudy,\\
+	%\cse,\\
+	%\iitb.
+	%\mbox{\small\tt sangramraje@cse.iitb.ac.in}\\
+	%\mbox{\href{http://www.cse.iitb.ac.in/~sangramraje}{\small\tt http://www.cse.iitb.ac.in/$\sim$sangramraje}}} {
+	%\addr
+	%}
+
+
+\begin{document}
+\maketitle
+
+% ------- Education ---------------------------------------------------
+
+\begin{category}{Education}
+\citem{\iitb}, India.\\
+B.Tech in Computer Science and Engineering. Graduation year: 2008.\\
+Cumulative Performance Index (CPI) : 9.28/10 (after six semesters).
+\citem{Maharashtra State Board}\\
+Class XII. Year: 2004.\\
+HSC Class XII. Ranked 14th in my district in the General Merit List among around 20,000 students appearing for the examination.\\
+Aggregate: 93.33 \%
+\citem{Maharashtra State Board}\\
+Class X. Year: 2002.\\
+Aggregate: 88.40 \%
+\end{category}
+\vspace{1pt}
+
+
+%---------- Academic Honours --------------------------------------------
+
+\begin{category}{Academic Honours and other significant achievements}
+\citem{IIT Joint Entrance Examination 2004}\\
+Secured an \emph{All India Rank 69} in the national level exam for entrance into the IITs.
+\citem{AIEEE 2004}\\
+Secured an \emph{All India Rank 138} and \emph{State Rank 6} in the All India Engineering Entrance Examination 2004.
+\citem{ACM-International Collegiate Programming Contest 2006-07}\\
+Represented IIT Bombay at the ACM-ICPC 2006-07 held in Tokyo. Was part of one of three teams which participated from India.
+\citem{National Science Olympiad 2004}\\
+Ranked \emph{second} in the country in the NSO for the year 2004.
+\citem{National Talent Search 2002}\\
+Awarded the prestigious scholarship under the \textbf{National Talent Search} scheme, by the \emph{Government Of India}.
+\citem{Regional Mathematical Olympiad 2003}\\
+Among the \emph{top 30 students} selected in the Regional Mathematical Olympiad from Maharashtra and Goa region in the year 2003.
+\citem{Ganit Parangat}\\
+Secured the \textbf{second} position in an advanced mathematics examination held throughout the state of Maharashtra by the \emph{Maharashtra Ganit Adhyapak Mahamandal}
+\citem{Outstanding Student of the school}\\
+Was awarded the scholarship for \emph{Most Outstanding Student} of my school - \textbf{Bhavan's Sulochana Natu Vidya Mandir}.
+\end{category}
+\vspace{1pt}
+
+%---------- Research Experience ---------------------------------------------------
+
+\begin{category}{Research Experience}
+\citem{SMT Solving with Fixpoint constraints}, \emph{Spring 2007}\\
+In the first stage of my BTech project, we looked at a problem of generation of test cases for digital sequential circuits. The main problem we are dealing with is to include fixpoint constraint handling in SMT Solvers. Several methods have been explored for the same and in the next stage, we would build up on some of these. The project is being done under the guidance of \emph{Prof. Supratik Chakraborty}.
+\pagebreak
+\citem{Solving Games of Imperfect Information}, \emph{Summer 2007}\\
+Interned at the MTC Labs, EPFL during the months of May-July. Studied various techniques for Solving Games of Imperfect Information, played between two players. Implemented an optimized version of a particular technique in a tool for Solving Games for Safety, Reachability, B\"{u}chi and coB\"{u}chi objectives. The internship was completed under the guidance of \emph{Prof. Thomas Henzinger}
+\citem{Satisfiability Modulo Theories (SMT) approach to constraint solving}, \emph{Spring 2007}\\
+In my Junior Thesis, I studied the works extending recent developments in the field of propositional SAT solving techniques to other richer theories involving linear algebra, bitvectors, uninterpretted functions, arrays, lists etc. I was guided by \emph{Prof. Supratik Chakraborty}.
+
+\citem{Underwater Network Architecture}, \emph{Summer 2006}\\
+Worked at the Acoustic Research Laboratory, National University of Singapore as an intern in the months of June-July. As part of a team, developed, implemented and tested basic protocols which can be used in Underwater Networking using Acoustic Modems. The project was headed by \emph{Dr. Mandar Chitre}.
+\end{category}
+\vspace{1pt}
+
+
+% --------- Projects Undertaken ----------------------------------------------------
+
+\begin{category}{Projects Undertaken}
+% \citem{Portfolio Management System}, \emph{Autumn 2006}\\
+% Created a database system which helped users to manage their portfolios through a web interface. Once the data was entered, the users could see various statistics related to their profits/losses and representations of their holdings in multiple formats.
+\citem{Multi-Player Game over Bluetooth}, \emph{Spring 2006}\\
+Created a multi-player game based on the popular \emph{dot-to-dot} that could be run on Bluetooth and Java enabled mobile phones.
+\citem{Applet on Lambda Calculus}, \emph{Autumn 2005}\\
+Allowed the user to input expressions, display them as trees and simplify them to normal form.
+%The project was done under \emph{Prof. G. Sivakumar}.
+\citem{Chess End-Game solver in Scheme}, \emph{Spring 2005}\\
+From a given configuration, the program solved for a mate up to a specified number of moves.
+% This was done as a course project under \emph{Prof. Amitabha Sanyal}.
+\citem{Mathematical Package in C++}, \emph{Autumn 2004}\\
+Supported calculation of Fourier coefficients of a function, numerically solving differential equations etc.
+%This was done as a course project under \emph{Prof. Sharat Chandran}.
+\end{category}
+% \vspace{1pt}
+
+% ------- Skills ------------------------------------------------------
+
+% \begin{category}{Skills}
+% \citem{Programming Languages}\\
+% C/C++, Java, Scheme, Visual Basic, Assembly for 8085 microprocessor.
+% \citem{Web Development and Scripting Languages}\\
+% Servlets/JSP, Perl, acquainted with PHP and Shell scripting.
+% \citem{Description Languages}\\
+% Introductory knowledge of VHDL.
+% \citem{Operating Systems}\\
+% Worked and comfortable with Linux and Windows.
+% \citem{Other special packages}\\
+% NetBeans IDE, Eclipse Java Development Platform, Mathematica 5.1,  Spice3.
+% \end{category}
+% \vspace{1pt}
+% 
+% \newpage
+%--------- Relevant Courses -------------------------------------
+
+% \begin{category}{Relevant Courses taken so far}
+% \citembullet Formal Specification and Verification of Programs
+% \citembullet Formal Languages and Models for Natural Computing
+% \citembullet Formal Methods In Computer Science
+% \citembullet Theory of Computation
+% \citembullet Data Structures and Algorithms, Design and Analysis of Algorithms
+% \citembullet Discrete Structures
+% \citembullet Linear Optimization
+% \citembullet Principles of Programming Languages
+% \citembullet Abstraction and Paradigms in Programming
+% \citembullet Probability, Random Processes and Statistical Inference
+% \citembullet Software Systems Lab, Computer Programming and Utilization
+% \citembullet Operating System Fundamentals
+% \citembullet Computer Organization and Design
+% \citembullet Database and Information Systems
+% \citembullet Basic Calculus, Linear Algebra, Differential Equations
+% \end{category}
+% \vspace{1pt}
+
+%--------- Positions Held -------------------------------
+
+\begin{category}{Positions Held}
+\citembullet Currently part of a team of Student Mentors. Guided 18 freshmen and helped them settle down in their campus life.
+\citembullet Have been the \textbf{\textit{Technical Secretary}} of my hostel.
+\citembullet Have served as the \textbf{\textit{School Captain}} in my school in the year 2001-02.
+\end{category}
+\vspace{1pt}
+
+%---------- Extra Curriculars -----------------------------------------
+
+\begin{category}{Extra-\\Curricular Activities}
+\citembullet Was awarded \textbf{\textit{Institute Technical Colour}} in the year 2004-05 and \textbf{\textit{Hostel Technical Colour}} in the year 2005-06.% for extra-curricular technical activities.
+\citembullet Built a \textbf{Micromouse} which was judged to be the fastest at a National level competition in 2007. 
+\citembullet Secured the \textbf{\textit{First position in Decathlon}} at \emph{Techfest 05, IIT Bombay's annual technical festival} and the largest of its kind in Asia.
+\citembullet Stood \textbf{\textit{Second in SciTech}} - a Technical Quiz in \emph{Techfest 06}.
+\citembullet \textbf{\textit{First position in Logic Quiz}}, which was conducted by the \emph{Technical Club of IIT Bombay} in my first year (2004-2005).
+\end{category}
+% \vspace{1pt}
+
+
+% -------- Declaration --------------------------------------------
+
+% \begin{category}{Declaration} 
+% \citemnobullet The information presented above is correct and true to the best of my knowledge.
+% \end{category}
+\end{document}
