@@ -39,91 +39,70 @@
 
 % Some definitions which can be changed easily
 
-\def\yearOfStudy{Senior Undergraduate}
+\def\designation{Senior Quantitative Analyst}
+\def\tower{Tower Research Capital LLC}
 \def\iitb{Indian Institute of Technology Bombay}
-\def\cse{Department Of Computer Science}
-\def\addr{Flat No. 102, Building B,\\
-		  10 Kasturkunj,\\
-		  Bhosale Nagar,\\
-		  Pune 411007.\\
-          Phone: 91-9819858371}
 
 \author{Sangram R. Raje}
 % ------ Address --------------------------------------------------------
 
-\address{}%\yearOfStudy,\\
-	%\cse,\\
-	%\iitb.
-	%\mbox{\small\tt sangramraje@cse.iitb.ac.in}\\
-	%\mbox{\href{http://www.cse.iitb.ac.in/~sangramraje}{\small\tt http://www.cse.iitb.ac.in/$\sim$sangramraje}}} {
-	%\addr
+\address{}
+%\designation,
+	%\tower
+	%\mbox{\small\tt sangramraje@gmail.com}
 	%}
-
 
 \begin{document}
 \maketitle
 
-% ------- Education ---------------------------------------------------
+% ------- Job Description -----------------------------------------------
 
-\begin{category}{Education}
-\citem{\iitb}, India.\\
-B.Tech in Computer Science and Engineering. Graduation year: 2008.\\
-Cumulative Performance Index (CPI) : 9.28/10 (after six semesters).
-\citem{Maharashtra State Board}\\
-Class XII. Year: 2004.\\
-HSC Class XII. Ranked 14th in my district in the General Merit List among around 20,000 students appearing for the examination.\\
-Aggregate: 93.33 \%
-\citem{Maharashtra State Board}\\
-Class X. Year: 2002.\\
-Aggregate: 88.40 \%
+\begin{category}{Job Experience}
+\citem{\designation}, \tower\\
+Develop models and strategies for various markets worldwide, with a focus on equities.
 \end{category}
 \vspace{1pt}
 
+% ------- Education -----------------------------------------------------
+
+\begin{category}{Education}
+\citem{\iitb}, India.\\
+B.Tech in Computer Science and Engineering. Graduation year: 2008.
+\end{category}
+\vspace{1pt}
 
 %---------- Academic Honours --------------------------------------------
 
 \begin{category}{Academic Honours and other significant achievements}
-\citem{IIT Joint Entrance Examination 2004}\\
-Secured an \emph{All India Rank 69} in the national level exam for entrance into the IITs.
-\citem{AIEEE 2004}\\
-Secured an \emph{All India Rank 138} and \emph{State Rank 6} in the All India Engineering Entrance Examination 2004.
 \citem{ACM-International Collegiate Programming Contest 2006-07}\\
 Represented IIT Bombay at the ACM-ICPC 2006-07 held in Tokyo. Was part of one of three teams which participated from India.
 \citem{National Science Olympiad 2004}\\
 Ranked \emph{second} in the country in the NSO for the year 2004.
 \citem{National Talent Search 2002}\\
 Awarded the prestigious scholarship under the \textbf{National Talent Search} scheme, by the \emph{Government Of India}.
-\citem{Regional Mathematical Olympiad 2003}\\
-Among the \emph{top 30 students} selected in the Regional Mathematical Olympiad from Maharashtra and Goa region in the year 2003.
-\citem{Ganit Parangat}\\
-Secured the \textbf{second} position in an advanced mathematics examination held throughout the state of Maharashtra by the \emph{Maharashtra Ganit Adhyapak Mahamandal}
-\citem{Outstanding Student of the school}\\
-Was awarded the scholarship for \emph{Most Outstanding Student} of my school - \textbf{Bhavan's Sulochana Natu Vidya Mandir}.
 \end{category}
 \vspace{1pt}
 
 %---------- Research Experience ---------------------------------------------------
 
 \begin{category}{Research Experience}
-\citem{SMT Solving with Fixpoint constraints}, \emph{Spring 2007}\\
-In the first stage of my BTech project, we looked at a problem of generation of test cases for digital sequential circuits. The main problem we are dealing with is to include fixpoint constraint handling in SMT Solvers. Several methods have been explored for the same and in the next stage, we would build up on some of these. The project is being done under the guidance of \emph{Prof. Supratik Chakraborty}.
-\pagebreak
+\citem{SMT Solving with Fixpoint constraints}, \emph{B.Tech Project}\\
+In my BTech project, we looked at a problem of generation of test cases for digital sequential circuits. The main problem we are dealing with is to include fixpoint constraint handling in SMT Solvers. Several methods were explored for the same and we proved some significant results associated with showing that fixed points are reached in a large class of such circuits. The project was completed under the guidance of \emph{Prof. Supratik Chakraborty}.
 \citem{Solving Games of Imperfect Information}, \emph{Summer 2007}\\
 Interned at the MTC Labs, EPFL during the months of May-July. Studied various techniques for Solving Games of Imperfect Information, played between two players. Implemented an optimized version of a particular technique in a tool for Solving Games for Safety, Reachability, B\"{u}chi and coB\"{u}chi objectives. The internship was completed under the guidance of \emph{Prof. Thomas Henzinger}
 \citem{Satisfiability Modulo Theories (SMT) approach to constraint solving}, \emph{Spring 2007}\\
 In my Junior Thesis, I studied the works extending recent developments in the field of propositional SAT solving techniques to other richer theories involving linear algebra, bitvectors, uninterpretted functions, arrays, lists etc. I was guided by \emph{Prof. Supratik Chakraborty}.
-
 \citem{Underwater Network Architecture}, \emph{Summer 2006}\\
 Worked at the Acoustic Research Laboratory, National University of Singapore as an intern in the months of June-July. As part of a team, developed, implemented and tested basic protocols which can be used in Underwater Networking using Acoustic Modems. The project was headed by \emph{Dr. Mandar Chitre}.
 \end{category}
-\vspace{1pt}
+\pagebreak
 
 
 % --------- Projects Undertaken ----------------------------------------------------
 
 \begin{category}{Projects Undertaken}
-% \citem{Portfolio Management System}, \emph{Autumn 2006}\\
-% Created a database system which helped users to manage their portfolios through a web interface. Once the data was entered, the users could see various statistics related to their profits/losses and representations of their holdings in multiple formats.
+\citem{Portfolio Management System}, \emph{Autumn 2006}\\
+Created a database system which helped users to manage their portfolios through a web interface. Once the data was entered, the users could see various statistics related to their profits/losses and representations of their holdings in multiple formats.
 \citem{Multi-Player Game over Bluetooth}, \emph{Spring 2006}\\
 Created a multi-player game based on the popular \emph{dot-to-dot} that could be run on Bluetooth and Java enabled mobile phones.
 \citem{Applet on Lambda Calculus}, \emph{Autumn 2005}\\
@@ -179,7 +158,7 @@ Supported calculation of Fourier coefficients of a function, numerically solving
 %--------- Positions Held -------------------------------
 
 \begin{category}{Positions Held}
-\citembullet Currently part of a team of Student Mentors. Guided 18 freshmen and helped them settle down in their campus life.
+\citembullet Part of institute Student Mentors body. Guided 18 freshmen and helped them settle down in their campus life.
 \citembullet Have been the \textbf{\textit{Technical Secretary}} of my hostel.
 \citembullet Have served as the \textbf{\textit{School Captain}} in my school in the year 2001-02.
 \end{category}

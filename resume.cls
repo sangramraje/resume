@@ -147,7 +147,7 @@
   \@moveleft\makebox[\titlewidth]{\titlenamefont\@author}\\
   \@moveleft
   	\parbox[t]{\addresswidth}{\begin{flushleft}\@addressA\end{flushleft}}\hfill%
-  \parbox[t]{\addresswidth}{\begin{flushright}\@addressB\end{flushright}}
+  \parbox[t]{\addresswidth}{\begin{center}\@addressB\end{center}}
   \par
   %\vskip 1.5em
   }
